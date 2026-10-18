@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+    <nav>
+        <h1>Logo</h1>
+        <ol>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Projects</a></li>
+        </ol>
+    </nav>
+<div class="parent" id="par">
+    <div class="startquiz" id="startquizdiv">
+        <h1>Quiz Website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores beatae placeat animi nulla alias at cumque amet saepe, delectus pariatur nam temporibus laboriosam necessitatibus nostrum rerum quidem veniam suscipit repudiandae.</p>
+        <button id="startquiz">Start Quiz</button>
+    </div>
+    <div id="rules">
+        <h3>Quiz Rules & Regulations</h3>
+        <p style="color: red;">Don't</p>
+        <ul>
+            <li>Don't tab switch</li>
+            <li>Don't Use mobile phones</li>
+            <li>Don't Copy , Paste</li>
+            <li>Don't Malpractice</li>
+        </ul>
+        <p style="color: green;">Do's</p>
+        <ul>
+            <li>Don't tab switch</li>
+            <li>Don't Use mobile phones</li>
+            <li>Don't Copy , Paste</li>
+            <li>Don't Malpractice</li>
+        </ul>
+        <div class="btns">
+            <button id="cancel">Cancel</button>
+            <button id="continues">Continue</button>
+        </div>
+    </div>
+    <div class="quiz-container" id="quizcontainer">
+        <div class="quiz-header">
+            <h1>Quiz</h1>
+            <button id="timer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-timer preview-icon"><line x1="10" x2="14" y1="2" y2="2"/><line x1="12" x2="15" y1="14" y2="11"/><circle cx="12" cy="14" r="8"/></svg>15 s</button>
+        </div>
+        <div class="quiz-content">
+            <h2 id="ques">Lorem, ipsum dolor sit amet consectetur ?</h2>
+            <ul id="list"></ul>
+        </div>
+        <div class="quiz-footer">
+            <button id="prev"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left preview-icon"><path d="M6 8L2 12L6 16"/><path d="M2 12H22"/></svg> Back</button>
+            <p id="outofque">1 of 5 Questions</p>
+            <button id="next">Next <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right preview-icon"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
+        </div>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
